@@ -1,6 +1,6 @@
 import React from "react"
-import Logo from "../../public/icons/Logo.png"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import NavBar from "../components/Navbar"
+import { useStaticQuery, graphql } from "gatsby"
 
 function LandingPage() {
   const { pageDataYaml } = useStaticQuery(graphql`
@@ -32,6 +32,7 @@ function LandingPage() {
   return (
     <section id="home" style={pageStyle} className="container-fluid">
       <div className="container">
+        <NavBar />
         <div className="centerItems">
           <h6 style={welcomeStyle}>{welcomeText}</h6>
           <h1>{landingText}</h1>

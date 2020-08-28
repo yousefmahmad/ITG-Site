@@ -31,7 +31,7 @@ function Navbar() {
         </div>
       </div>
       <nav className="navbar navbar-dark">
-        <h4 style={textStyle}>IbreeqTech</h4>
+        <h4 style={textStyle}>IBREEQTECH</h4>
         {/* <button
           className="navbar-toggler"
           type="button"
