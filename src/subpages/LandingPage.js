@@ -32,7 +32,7 @@ function LandingPage() {
   return (
     <section id="home" style={pageStyle} className="container-fluid">
       <div className="container">
-        <NavBar />
+        {/* <NavBar /> */}
         <div className="centerItems">
           <h6 style={welcomeStyle}>{welcomeText}</h6>
           <h1>{landingText}</h1>
