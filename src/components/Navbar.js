@@ -1,9 +1,9 @@
 import React from "react"
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Navbar() {
   const textStyle = {
-    color: "#FFA800",
+    color: "#1c8ec3",
     fontWeight: "600",
     letterSpacing: "0.1em",
   }
@@ -31,8 +31,8 @@ function Navbar() {
         </div>
       </div>
       <nav className="navbar navbar-dark">
-        <h4 style={textStyle}>KRISP</h4>
-        <button
+        <h4 style={textStyle}>IbreeqTech</h4>
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -42,7 +42,7 @@ function Navbar() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
       </nav>
     </div>
   )
