@@ -35,8 +35,6 @@ function LandingPage() {
         <div className="centerItems">
           <h6 style={welcomeStyle}>{welcomeText}</h6>
           <h1>{landingText}</h1>
-<<<<<<< HEAD
-=======
           {/* <button
             style={{
               width: "200px",
@@ -53,7 +51,6 @@ function LandingPage() {
           >
             Start a Project
           </button> */}
->>>>>>> develop
         </div>
       </div>
     </section>
