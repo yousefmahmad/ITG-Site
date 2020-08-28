@@ -30,13 +30,13 @@ function LandingPage() {
   }
 
   return (
-    <section id = "home" style={pageStyle} className = "container-fluid">
+    <section id="home" style={pageStyle} className="container-fluid">
       <div className="container">
         <Navbar />
         <div className="centerItems">
           <h6 style={welcomeStyle}>{welcomeText}</h6>
           <h1>{landingText}</h1>
-          <button
+          {/* <button
             style={{
               width: "200px",
               padding: "10px",
@@ -51,7 +51,7 @@ function LandingPage() {
             }}
           >
             Start a Project
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
