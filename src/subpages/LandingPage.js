@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar"
+import Logo from "../../public/icons/Logo.png"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 function LandingPage() {
